@@ -1,4 +1,4 @@
-#Algorithms in Bioinformatics recitation
+# Algorithms in Bioinformatics recitation
 
 Time: Fr. 11:00am -- 12.15pm
 
