@@ -63,10 +63,10 @@ import math
 answer = math.ceil(5 / 2)       # answer = 3
 answer = math.floor(5 / 2)      # answer = 2
 answer = math.factorial(5)      # answer = 120
-answer = math.exp(3)            # answer =
+answer = math.exp(3)            # answer =~20
 answer = math.pow(3, 3)         # answer = 27
 answer = math.gcd(12, 16)       # answer = 4
-answer = math.log(8, base=2)         # answer = 3
+answer = math.log(8, 2)         # answer = 3
 answer = math.sqrt(144)         # answer = 12
 
 
