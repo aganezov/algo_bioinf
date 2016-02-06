@@ -9,6 +9,14 @@
 * To get **PyCharm Professional** go to [jetbrains.com/student](jetbrains.com/student)
 * To get **Python** go to [python.org](https://www.python.org/downloads/)
 
+## Covered topics
+* Python background
+
+    * [variables + math operations](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/variables.py)
+    * [built-in data structures](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/builtin_data_structures.py)
+    * [functions](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/functions.py)
+    * [classes](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/classes.py)
+
 ## Recommended books
 
 * Python Cookbook - [read online](http://chimera.labs.oreilly.com/books/1230000000393/index.html)
