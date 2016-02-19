@@ -69,6 +69,23 @@ answer = a  # answer = [1, 2.5, 3, 4]
 del a[0]
 answer = a  # answer = [2.5, 3, 4]
 
+# One can construct a list in multiple ways.
+# Simplest way is to create a new empty list and then use a method append / insert to add elements into it
+a = []
+a.append(1)  # a = [1]
+a.append(2)  # a = [1, 2]
+a.insert(0, -1)  # a = [-1, 2, 2]
+
+# another way to create a new list is to use so called list comprehension
+# this is usually used when there is a need to create a new collection from already existing one
+a = [str(x) for x in [1, 2, 3, 4]]  # a = ['1', '2', '3', '4']
+# one can also put conditions into such list creation, thus utilizing the filter pattern
+a = [str(x) for x in [1, 2, 3, 4] if x % 2 == 0]  # a = ['2', '4']
+
+# list comprehension can be nested (more than 2 levels of iterations are not encouraged in list comprehension)
+a = [str(x * y) for y in [1, 2, 3] for x in [1, 2, 3, 4] if x % 2 == 0]  # a = ['2', '4', '4', '8', '6', '12']
+# a = ['1 * 2', '1 * 4', '2 * 2', '2 * 4', '3 * 2', '3 * 4']
+
 ###########################################################################
 #
 #  _______          _
@@ -104,6 +121,10 @@ answer = a[2]  # answer = [1, 2], a = (1, "string", [1, 2], 4)
 a[2][0] = 3
 answer = a[2]  # answer = [3, 2], a = (1, "string", [3, 2], 4)
 
+# one can convert a list into a tuple by simply calling ``tuple`` function on it
+a = [1, 2, 3, 4]
+answer = tuple(a)  # answer = (1, 2, 3, 4)
+
 ###########################################################################
 #  _____  _      _   _
 # |  __ \(_)    | | (_)
@@ -128,24 +149,34 @@ answer = a[2]  # answer = [3, 2], a = (1, "string", [3, 2], 4)
 # Dictionary declaration
 # Keys go before ":" character. Any hashable object can be a key
 # Values go after ":" character. Any object can be a value
-a = {}                              # empty dictionary declaration
+a = {}  # empty dictionary declaration
 a = {1: "1", "2": 2}
 
 # Element setting
 a[3] = "3"
-answer = a                          # answer = {1: "1", "2": 2, 3: "3"}
+answer = a  # answer = {1: "1", "2": 2, 3: "3"}
 
 # Setting a new value to the already existing key overwrites previously set value
-answer = a                          # answer = {1: "1", "2": 2, 3: "3"}
+answer = a  # answer = {1: "1", "2": 2, 3: "3"}
 a[3] = 4
-answer = a                          # answer = {1: "1", "2": 2, 3: 4}
+answer = a  # answer = {1: "1", "2": 2, 3: 4}
 
 # Element accessing
-answer = a[3]                       # answer = 4
+answer = a[3]  # answer = 4
 
 # Element deleting
 del a[4]
-answer = a                          # answer = {1: "1", "2": 2}
+answer = a  # answer = {1: "1", "2": 2}
+
+
+# one can create a dictionary by using dict comprehensions, that are similar to list comprehensions, but with a slightly different syntax
+# this is, again, often used when one needs to create a dictionary based on the already existing collection of elements
+a = {x: str(x) for x in [1, 2, 3, 4]}  # a = {1: '1', 2: '2', 3: '3', 4: '4'}
+# condition is also allowed
+a = {x: str(x) for x in [1, 2, 3, 4] if x % 2 == 0}  # a = {2:'2', 4:'4'}
+# a nested iteration can be utilized as well, though, as well as in list case, more than two levels of collections are discouraged
+#   in the comprehension syntax
+a = {x * y: str(y) for y in [1, 2, 3] for x in [1, 2, 3, 4] if x % 2 == 0}  # a = {2: '1', 4: '2', 8: '2', 6: '3', 12: '3'}
 
 
 ###########################################################################
@@ -170,15 +201,15 @@ answer = a                          # answer = {1: "1", "2": 2}
 
 # Set declaration
 a = {1, 2, 3}
-a = set()               # empty set declaration. Can not do it with {}, as that is the way to declare empty an empty dictionary
+a = set()  # empty set declaration. Can not do it with {}, as that is the way to declare empty an empty dictionary
 
 # Element addition
 a.add(3)
-answer = a                          # answer = {3}
+answer = a  # answer = {3}
 # Adding same element multiple times doesn't result in multiple entries
 a.add(3)
-answer = a                          # answer = {3}
+answer = a  # answer = {3}
 
 # Element deletion
 a.remove(3)
-answer = a                          # answer = {3}
+answer = a  # answer = {3}
