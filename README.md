@@ -16,6 +16,8 @@
     * [built-in data structures](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/builtin_data_structures.py)
     * [functions](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/functions.py)
     * [classes](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/classes.py)
+    * [iteration](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/iteration.py)
+    * [strings and printing](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/printing_and_strings.py)
 
 ## Recommended books
 
