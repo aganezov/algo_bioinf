@@ -72,3 +72,21 @@ print("result", sophisticated_function_1(1, 2, 3, 4))
 print("result", sophisticated_function_1(1, second_greeting="new second greeting"))
 print("result", sophisticated_function_1(1, 2, 3, first_greeting="new first greeting"))
 
+
+############################################################################################
+#
+# Functions can be defined inside other functions, just for the purpose of code readability
+#
+############################################################################################
+
+# defining an outer function
+def function1(argument1, argument2):
+
+    # internal logic, that is reused multiple times inside the outer function
+    def function2(argument):
+        return argument + 2
+
+    new_argument1 = function2(argument1)        # invoking separated function logic
+    new_argument2 = function2(argument2)        # invoking AGAIN separated function logic
+    return new_argument1 + new_argument2
+
