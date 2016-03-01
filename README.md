@@ -14,12 +14,13 @@
 
 For those of you using **PyCharm** do the next two steps, starting from the starting screen
 
-![Cloning the repository. Step 1](https://cloud.githubusercontent.com/assets/1204593/13429940/aa7607e4-df90-11e5-977f-cfe8fc27cdb2.png)
+<img src="https://cloud.githubusercontent.com/assets/1204593/13429940/aa7607e4-df90-11e5-977f-cfe8fc27cdb2.png" width="400">
+
 
 Paste the full url path to the repository
 
 Substitute the parent directory path with the one, existing on your machine
-![Cloning the repository. Step 2](https://cloud.githubusercontent.com/assets/1204593/13429950/c582441c-df90-11e5-9edf-d564114ea01e.png)
+<img src="https://cloud.githubusercontent.com/assets/1204593/13429950/c582441c-df90-11e5-9edf-d564114ea01e.png" width="400">
 
 Hit **Clone** and that's it!
 
