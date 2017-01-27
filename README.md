@@ -1,6 +1,6 @@
 # Algorithms in Bioinformatics recitation
 
-| Time:       | Fr. 11:00am - 12.15pm |
+| Time:       | F 1:00pm - 2:00pm     |
 --------------|------------------------
 |**Location:**| **GOV 103**           |
 
@@ -27,17 +27,17 @@ Hit **Clone** and that's it!
 
 For those of you not using **PyCharm**, run the following command in your terminal / cmd
 
-    git clone https://github.com/aganezov/algo_bioinf_spring_2016.git
+    git clone https://github.com/aganezov/algo_bioinf.git
 
 ## Covered topics
 * Python background
 
-    * [variables + math operations](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/variables.py)
-    * [built-in data structures](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/builtin_data_structures.py)
-    * [functions](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/functions.py)
-    * [classes](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/classes.py)
-    * [iteration](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/iteration.py)
-    * [strings and printing](https://github.com/aganezov/algo_bioinf_spring_2016/blob/master/python_background/printing_and_strings.py)
+    * [variables + math operations](https://github.com/aganezov/algo_bioinf/blob/master/python_background/variables.py)
+    * [built-in data structures](https://github.com/aganezov/algo_bioinf/blob/master/python_background/builtin_data_structures.py)
+    * [functions](https://github.com/aganezov/algo_bioinf/blob/master/python_background/functions.py)
+    * [classes](https://github.com/aganezov/algo_bioinf/blob/master/python_background/classes.py)
+    * [iteration](https://github.com/aganezov/algo_bioinf/blob/master/python_background/iteration.py)
+    * [strings and printing](https://github.com/aganezov/algo_bioinf/blob/master/python_background/printing_and_strings.py)
 
 ## Recommended books
 
