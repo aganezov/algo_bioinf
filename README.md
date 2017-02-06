@@ -7,6 +7,7 @@
 ## How to get software for recitation class
 
 * To get **PyCharm Professional** go to [jetbrains.com/student](https://www.jetbrains.com/shop/eform/students), apply with your **\*.gwu.edu** email and then download **PyCharm** at [jetbrains.com/pycharm](jetbrains.com/pycharm)
+* To get **PyCharm Edu** go to [https://www.jetbrains.com/pycharm-edu/](https://www.jetbrains.com/pycharm-edu/) and download the app.
 * To get **Python** separately go to [python.org](https://www.python.org/downloads/). We recommend getting Python3+, instead of Python2.7.
 
 
